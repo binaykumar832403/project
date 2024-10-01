@@ -1,0 +1,28 @@
+.dashboard-container{
+  background-color: bisque;
+  height: 100vh;
+}
+.dashboard-container h1{
+  text-align: center;
+  padding: 20px;
+  color: rgb(183, 39, 183);
+}
+.dashBoard-btn{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.dashBoard-btn button{
+  background-color: #04AA6D;
+  color: #fff;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 15px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.dashBoard-btn button:hover{
+  background-color: #008CBA;
+}

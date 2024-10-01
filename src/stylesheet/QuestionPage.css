@@ -1,0 +1,62 @@
+.que-outer-container{
+  /* background-color: #fff; */
+  height: 200px;
+}
+.que-main-container{
+  background-color: rgb(125, 148, 197);
+  width: 700px;
+  margin: 0 auto;
+  padding: 10px;
+  margin-top: 80px;
+  border-radius: 5px;
+}
+#que-text input{
+  width: 75%;
+  padding: 8px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+}
+.que-main-container h2{
+  text-align: center;
+}
+.option-list{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+.option input{
+  width: 60%;
+  margin-right: 20px;
+  padding: 4px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+}
+#correct-ans input{
+  padding: 4px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+}
+.que-btn button{
+  margin-left: 40%;
+  background-color: rgb(31, 16, 45);
+  color: #fff;
+  padding: 10px 12px;
+  width: 80px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+}
+.que-btn button:hover{
+  background-color: rgb(97, 7, 181);
+}
+.error-msg{
+  color: red;
+}
+.success-msg{
+  color: green;
+}

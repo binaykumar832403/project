@@ -1,0 +1,57 @@
+body{
+  /* background-color: rgb(247, 184, 243); */
+  
+}
+.admin-signup-container{
+  background-color: rgb(108, 132, 135);
+  height: 500px;
+  width: 350px;
+  margin: 6% auto;
+  border-radius: 8px;
+  padding: 10px 50px;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  box-shadow: 5px 9px 18px rgb(72, 62, 62);
+}
+.admin-signup-container h1{
+  /* color: rgb(248, 201, 112); */
+  color: rgb(100, 45, 152);
+}
+.admin-signup-container-item label{
+  display: flex;
+  margin-top: 5px;
+  font-weight: 700;
+  color: gold;
+}
+.admin-signup-container-item input{
+  width: 90%;
+  outline: none;
+  border: none;
+  padding: 8px;
+  margin-top: 4px;
+  border-radius: 5px;
+  /* background-color: rgb(190, 183, 183); */
+}
+.signup-span{
+  color: red;
+  display: block;
+}
+.admin-signup-btn button{
+  background-color: blueviolet;
+  color: #fff;
+  padding: 10px 12px;
+  width: 94%;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 15px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.admin-signup-btn button:hover{
+  background-color: rgb(90, 25, 150);
+}
+.admin-success-msg{
+  color: rgb(64, 237, 64);
+}

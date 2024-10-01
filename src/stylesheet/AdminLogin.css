@@ -1,0 +1,55 @@
+body{
+  background-color:#282A35 ;
+}
+.admin-container{
+  background-color: whitesmoke;
+  height: 420px;
+  width: 350px;
+  margin: 6% auto;
+  border-radius: 8px;
+  padding: 10px 60px;
+  align-items: center;
+  justify-content: center;
+}
+.admin-container h1{
+  color: green;
+}
+.admin-container-item label{
+  display: block;
+  font-weight: 700;
+  margin-top: 6px ;
+  color: rgb(26, 19, 26);
+}
+.admin-container-item input{
+  width: 90%;
+  outline: none;
+  border: none;
+  padding: 8px;
+  margin-top: 4px;
+  border-radius: 5px;
+  background-color: rgb(190, 183, 183);
+  /* color: white; */
+}
+.admin-button button{
+  background-color: #8d4c74;
+  color: #fff;
+  padding: 10px 12px;
+  width: 94%;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 15px;
+  margin-top: 15px;
+}
+.admin-button button:hover{
+  background-color: #1f2809
+}
+.admin-span{
+  color: red;
+  margin-left: 2px;
+  display: block;
+}
+.admin-signup-text:hover{
+  color: blue;
+  text-decoration: underline;
+}

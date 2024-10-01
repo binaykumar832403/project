@@ -1,0 +1,52 @@
+.user-main-container{
+  background-color:rgb(111, 145, 178);
+  /* background-color: rgb(167 243 208) */
+  height: 100vh;
+  display: flex;
+}
+.user-container{
+  margin: 80px 0 80px  450px;
+  background-color: rgb(87, 191, 118);
+  width: 450px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.user-container h1{
+  text-align: center;
+  color: rgb(75, 8, 8);
+}
+.user-container-item label{
+  display: block;
+  font-weight: 700;
+  margin-top: 6px ;
+  color: rgb(238, 231, 238);
+}
+.user-container-item input{
+  width: 90%;
+  outline: none;
+  border: none;
+  padding: 8px;
+  margin-top: 4px;
+  border-radius: 5px;
+  background-color: rgb(190, 183, 183);
+}
+.user-login-btn button{
+  background-color: rgb(44, 60, 201);
+  color: #fff;
+  padding: 10px 12px;
+  width: 94%;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 15px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.user-login-btn button:hover{
+  background-color: rgb(136, 11, 103);
+}
+.user-signup-text:hover{
+  color: rgb(41, 58, 15);
+  cursor: pointer;
+  font-weight: 600;
+}

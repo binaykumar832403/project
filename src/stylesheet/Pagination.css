@@ -1,0 +1,23 @@
+.pagination-button-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.prev-next-btn{
+  background-color: #04AA6D;
+  color: #fff;
+  padding: 3px 8px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 15px;
+  margin: 0 5px;
+}
+.prev-next-btn:hover{
+  background-color: #046340;
+}
+.unhidden{
+  background-color:aqua;
+  border-radius: 4px;
+}

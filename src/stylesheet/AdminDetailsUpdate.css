@@ -1,0 +1,56 @@
+.update-outer-container{
+  background-color: aliceblue;
+  height: 100vh;
+}
+.update-outer-container h1{
+  width: 430px;
+  margin: 0 auto;
+  padding: 20px;
+  color: rgb(133, 15, 52);
+  font-family:'Times New Roman', Times, serif;
+}
+.admin-update-container{
+  
+  box-sizing: border-box;
+  /* background-color: #282A35; */
+  background-color: rgb(14, 141, 88);
+  color: #94266c;
+  border-radius: 15px;
+  width: 520px;
+  height: 60vh;
+  padding: 10px 0 10px 30px;
+  margin: 40px 370px;
+  /* text-align: center; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.admin-update-container-item label{
+  display: block;
+}
+.admin-update-container-item input{
+  width: 50%;
+  margin: 8px 0 12px 0;
+  padding: 5px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+}
+.update-err-msg{
+  color: red;
+}
+.update-button-container button{
+  padding: 8px 10px;
+  margin: 5px 20px 0 0;
+  font-size: 15px;
+  border-radius: 8px;
+  border: none;
+  background-color: #4604aa;
+  color: #fff;
+  cursor: pointer;
+}
+.update-button-container button:hover{
+  background-color: #deeb2d;
+  color: black;
+}
+#update-msg{
+  color: greenyellow;
+}

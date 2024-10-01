@@ -1,0 +1,19 @@
+.que-outer-container{
+  background-color: #282A35;
+  color: #FFF4A3;
+  height: 25vh;
+  width: 1100px;
+  margin-left:80px;
+  border-radius: 10px;
+ 
+}
+.que-options input{
+  
+  margin-left: 35px;
+}
+  
+.que-heading{
+  /* text-indent: 80px; */
+  margin-top: 50px;
+  padding: 10px;
+}

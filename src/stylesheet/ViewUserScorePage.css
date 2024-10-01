@@ -1,0 +1,44 @@
+.view-score-container{
+  background-color: rgb(196, 176, 186);
+  height: 100vh;
+  display: flex;
+}
+.view-score-container-item h1{
+  margin: 20px 350px;
+  text-decoration: underline;
+  /* text-decoration-color: yellow; */
+}
+.score-details-outer-container{
+  
+  display: flex;
+  flex-wrap: wrap;
+  width: 1020px;
+  margin-left: 110px;
+}
+
+.score-details-container{
+  background-color: rgb(69, 33, 33);
+  color: rgb(25, 159, 29);
+  width: 300px;
+  text-indent: 30px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+ 
+}
+.goto-dashbord-btn {
+  margin-left: 110px;
+  background-color: rgb(78, 5, 168);
+  color: #fff;
+  padding: 10px 12px;
+  /* width: 94%; */
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 15px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.goto-dashbord-btn:hover{
+  background-color: rgb(44, 133, 80);
+}

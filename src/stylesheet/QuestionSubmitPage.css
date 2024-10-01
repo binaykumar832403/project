@@ -1,0 +1,22 @@
+.submitpage-container{
+  background-color: rgb(251 207 232);
+  height: 100vh;
+  display: flex;
+}
+.submitpage-container-item{
+  /* background-color: palevioletred; */
+  background-color: rgb(43, 38, 38);
+  height: 150px;
+  padding: 20px;
+  margin: 20vh auto;
+  font-family:'Times New Roman', Times, serif;
+  border-radius: 8px;
+}
+.submitpage-container-item h1{
+  color: rgb(211, 184, 27);
+}
+.submitpage-container-item h2{
+  color: green;
+  width: 165px;
+  margin: 0 auto;
+}
